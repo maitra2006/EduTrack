@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Assign Faculty to Subject"
+        android:textColor="@color/primary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Select Faculty Member"
+        android:textColor="@color/text_primary"
+        android:textSize="12sp" />
+
+    <Spinner
+        android:id="@+id/spinnerAssignFaculty"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/bg_card"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Select Subject"
+        android:textColor="@color/text_primary"
+        android:textSize="12sp" />
+
+    <Spinner
+        android:id="@+id/spinnerAssignSubject"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/bg_card"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Class Name">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etAssignClass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SE Computer Engineering - Div A" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

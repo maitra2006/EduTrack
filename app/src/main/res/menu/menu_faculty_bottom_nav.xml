@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_faculty_classes"
+        android:icon="@drawable/ic_school"
+        android:title="My Classes" />
+
+    <item
+        android:id="@+id/nav_faculty_attendance"
+        android:icon="@drawable/ic_check_circle"
+        android:title="Mark Attendance" />
+
+    <item
+        android:id="@+id/nav_faculty_announcements"
+        android:icon="@drawable/ic_campaign"
+        android:title="Notices" />
+</menu>

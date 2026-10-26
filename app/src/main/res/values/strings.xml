@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EduTrack</string>
+    <string name="app_tagline">College Attendance Monitoring System</string>
+
+    <!-- Authentication -->
+    <string name="login_title">Sign In</string>
+    <string name="login_subtitle">Select your role and enter your credentials</string>
+    <string name="role_student">Student</string>
+    <string name="role_faculty">Faculty</string>
+    <string name="role_admin">Admin</string>
+    <string name="email_label">Email Address</string>
+    <string name="email_hint">name@edutrack.com</string>
+    <string name="password_label">Password</string>
+    <string name="password_hint">Enter password</string>
+    <string name="btn_login">Sign In</string>
+    <string name="demo_accounts_title">Demo Accounts (Tap to autofill)</string>
+    <string name="demo_admin_label">Admin: admin@edutrack.com / admin123</string>
+    <string name="demo_faculty_label">Faculty: meera@edutrack.com / faculty123</string>
+    <string name="demo_student_label">Student: aarav@edutrack.com / student123</string>
+
+    <!-- Errors -->
+    <string name="error_email_empty">Please enter your email address</string>
+    <string name="error_password_empty">Please enter your password</string>
+    <string name="error_invalid_credentials">Invalid email, password, or role</string>
+
+    <!-- General Navigation and Actions -->
+    <string name="action_logout">Logout</string>
+    <string name="dialog_logout_title">Logout</string>
+    <string name="dialog_logout_message">Are you sure you want to sign out?</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+
+    <!-- Minimum Attendance Threshold -->
+    <string name="min_attendance_label">Minimum Required Attendance: 75%</string>
+</resources>

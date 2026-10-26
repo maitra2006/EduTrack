@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Palette -->
+    <color name="primary">#1F2A44</color>
+    <color name="primary_dark">#131B2E</color>
+    <color name="primary_light">#2E3E63</color>
+    <color name="accent">#E0A526</color>
+    <color name="accent_light">#FFF4D9</color>
+
+    <!-- Surfaces and Backgrounds -->
+    <color name="background">#F6F7F9</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="card_stroke">#E5E7EB</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#1F2937</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_hint">#9CA3AF</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- Attendance Status Colors -->
+    <color name="status_green">#2E7D32</color>
+    <color name="status_green_bg">#E8F5E9</color>
+    <color name="status_amber">#D97706</color>
+    <color name="status_amber_bg">#FEF3C7</color>
+    <color name="status_red">#DC2626</color>
+    <color name="status_red_bg">#FEE2E2</color>
+
+    <!-- System / Standard -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

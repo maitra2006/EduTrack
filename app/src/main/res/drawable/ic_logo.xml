@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Outer Circular Badge -->
+    <path
+        android:fillColor="#1F2A44"
+        android:pathData="M48,8C25.9,8 8,25.9 8,48s17.9,40 40,40 40,-17.9 40,-40S70.1,8 48,8z" />
+
+    <!-- Inner Accent Ring Accent -->
+    <path
+        android:fillColor="#E0A526"
+        android:pathData="M48,14c18.8,0 34,15.2 34,34s-15.2,34 -34,34S14,66.8 14,48 29.2,14 48,14M48,10C27,10 10,27 10,48s17,38 38,38 38,-17 38,-38S69,10 48,10z" />
+
+    <!-- Graduation Cap -->
+    <path
+        android:fillColor="#E0A526"
+        android:pathData="M48,28L22,40l26,12 22,-10.15V56h4V40L48,28z" />
+    <!-- Tassel / Base -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,49.5v11.7C30,68.2 38.1,73.4 48,73.4s18,-5.2 18,-12.2V49.5L48,58 30,49.5z" />
+</vector>
